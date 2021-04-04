@@ -1,0 +1,178 @@
+/*class*/ 
+.aside1
+{
+    float: left;
+    width: 15%;
+    height: 89vh;
+    background-color: #333;
+    color: #fff;
+}
+.aside1 section h2
+{
+    color:darkgray;
+    padding: 10px;
+}
+.aside1 section ul
+{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.aside1 section img
+{
+    display: block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.imguser
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+.user
+{
+    display: inline-block;
+    font-weight: bold;
+}
+.clearfix
+{
+    clear: both;
+}
+.aside2
+{   
+    width: 2%;
+    float: right;
+    margin-top: 45vh;
+    
+}
+.aside2 ul li img 
+{
+    height: 30px;
+    width: 30px;
+}
+.top ul li
+{
+    display:inline-block;
+    
+}
+.top1
+{ 
+    margin: 20px;
+    width: 300px; 
+    border-radius: 10%;
+    height:150px;
+    background-image :linear-gradient(to right, #ED008D, #8D00ED);
+}
+.top1 h1 
+{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+.top2
+{
+    margin: 20px;
+    width: 300px; 
+    border-radius: 10%;
+    height:150px;
+    background-image :linear-gradient(to right, #1f30ce,#26972c);  
+}
+.top2 h1 
+{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+.top3
+{
+    margin: 20px;
+    width: 300px; 
+    border-radius: 10%;
+    height:150px;
+    background-image :linear-gradient(to right, #ca1717,#680860);  
+}  
+.top3 h1 
+{
+    text-align: center;
+    position: relative;
+    top: 50%; 
+}
+
+ .hed
+ {  
+     margin: 7px;
+     width: 99%;
+     background-color: gray;
+ }
+
+/*end class*/
+
+
+/* globel*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul
+{
+    list-style: none;
+}
+
+body 
+{
+    background-color: silver;
+}
+/*end global*/
+
+header 
+{
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+nav aside section ul li
+{
+    line-height: 3;
+}
+nav aside section ul li a 
+{
+    text-decoration: none;
+    color: darkgray;
+    font-weight: bold;
+    
+}
+article
+{
+    width: 53%;
+    margin: 20px;
+    margin-left: 300px;
+    border: 2px solid rgb(72, 78, 83) ;
+}
+article p
+{
+    width: 99%;
+    margin: 7px;
+    padding: 30px;
+    color:white;
+    background-color: rgb(72, 78, 83);
+    
+}
+/*footer*/
+
+footer
+{   height: 4vh;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
